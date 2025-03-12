@@ -60,7 +60,7 @@
         & > a {
             width: 100px;
             height: 26px;
-            background-image: url(../images/icons/logo-mobile.svg);
+            background-image: url(../../images/icons/logo-mobile.svg);
         }
         & > nav,
         & > div {
@@ -72,7 +72,7 @@
             width: 56px;
             height: 40px;
             background-color: var(--green-color60);
-            background-image: url(../images/icons/burger.svg);
+            background-image: url(../../images/icons/burger.svg);
             background-repeat: no-repeat;
             background-size: 28px;
             background-position: center;
@@ -112,7 +112,7 @@
             width: 100%;
             height: 370px;
             &::before {
-                background: url(../images/icons/header-layer-mobile.svg)
+                background: url(../../images/icons/header-layer-mobile.svg)
                     no-repeat;
                 width: 220px;
                 height: 200px;
@@ -191,7 +191,7 @@
                     transform: translate(-50%, 30px);
                     width: 258px;
                     height: 1px;
-                    background-image: url(../images/icons/line-dotted-mobile.svg);
+                    background-image: url(../../images/icons/line-dotted-mobile.svg);
                 }
             }
         }
@@ -320,7 +320,7 @@
             & > span {
                 width: 18px;
                 height: 18px;
-                background-image: url(../images/icons/arrow-down-mobile.svg);
+                background-image: url(../../images/icons/arrow-down-mobile.svg);
             }
         }
     }
@@ -355,7 +355,7 @@
     .banner-inner {
         height: 360px;
         padding: 30px;
-        background-image: url(../images/icons/banner-layer-mobile.svg);
+        background-image: url(../../images/icons/banner-layer-mobile.svg);
         flex-direction: column;
         & > a {
             width: 140px;
@@ -390,7 +390,7 @@
         & > a {
             width: 103px;
             height: 27px;
-            background: url(../images/icons/logo-mobile.svg) no-repeat;
+            background: url(../../images/icons/logo-mobile.svg) no-repeat;
         }
         & > nav {
             & > ul {

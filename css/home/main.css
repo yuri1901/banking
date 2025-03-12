@@ -1,10 +1,10 @@
-@import "./reset.css";
-@import "./fonts.css";
-@import "./base.css";
-@import "./variables.css";
+@import "../reset.css";
+@import "../fonts.css";
+@import "../base.css";
+@import "../variables.css";
 
 .header {
-    background-image: url(../images/icons/header-layer-01.svg);
+    background-image: url(../../images/icons/header-layer-01.svg);
     background-repeat: no-repeat;
     background-position: top -10px left -40px;
     background-size: 500px;
@@ -26,7 +26,7 @@
             padding: 10px 20px;
             & > p {
                 padding-left: 30px;
-                background: url(../images/icons/green-tick.svg) no-repeat;
+                background: url(../../images/icons/green-tick.svg) no-repeat;
                 font-size: 18px;
                 font-weight: 300;
                 line-height: 24px;
@@ -55,7 +55,7 @@
             right: 0;
             z-index: -1;
             transform: translate(32%, 15%);
-            background: url(../images/icons/header-layer-desktop-02.svg)
+            background: url(../../images/icons/header-layer-desktop-02.svg)
                 no-repeat;
             width: 420px;
             height: 380px;
@@ -67,7 +67,7 @@
     & > a {
         width: 160px;
         height: 40px;
-        background-image: url(../images/icons/logo-desktop.svg);
+        background-image: url(../../images/icons/logo-desktop.svg);
         background-repeat: no-repeat;
     }
     & > nav {
@@ -125,27 +125,27 @@
         }
         div {
             &::before {
-                background-image: url(../images/icons/products-mail.svg);
+                background-image: url(../../images/icons/products-mail.svg);
             }
         }
         &:first-child {
             & div {
                 &:before {
-                    background-image: url(../images/icons/products-mail.svg);
+                    background-image: url(../../images/icons/products-mail.svg);
                 }
             }
         }
         &:nth-child(2) {
             & div {
                 &:before {
-                    background-image: url(../images/icons/products-save.svg);
+                    background-image: url(../../images/icons/products-save.svg);
                 }
             }
         }
         &:last-child {
             & div {
                 &:before {
-                    background-image: url(../images/icons/products-camera.svg);
+                    background-image: url(../../images/icons/products-camera.svg);
                 }
             }
         }
@@ -185,13 +185,13 @@
     &:nth-child(2) {
         flex-direction: row-reverse;
         & > .cases-items {
-            background-image: url(../images/icons/cases-layer2.svg);
+            background-image: url(../../images/icons/cases-layer2.svg);
             background-position: right top;
         }
     }
 }
 .cases-items {
-    background-image: url(../images/icons/cases-layer.svg);
+    background-image: url(../../images/icons/cases-layer.svg);
     background-repeat: no-repeat;
     max-width: 740px;
     height: 540px;
@@ -222,14 +222,14 @@
     &:first-child {
         & > div.base-icons {
             &::before {
-                background-image: url(../images/icons/hand-money.svg);
+                background-image: url(../../images/icons/hand-money.svg);
             }
         }
     }
     &:nth-child(2) {
         & > div.base-icons {
             &::before {
-                background-image: url(../images/icons/love-money.svg);
+                background-image: url(../../images/icons/love-money.svg);
             }
         }
     }
@@ -237,14 +237,14 @@
     &:nth-child(3) {
         & > div.base-icons {
             &::before {
-                background-image: url(../images/icons/bank.svg);
+                background-image: url(../../images/icons/bank.svg);
             }
         }
     }
     &:last-child {
         & > div.base-icons {
             &::before {
-                background-image: url(../images/icons/book.svg);
+                background-image: url(../../images/icons/book.svg);
             }
         }
     }
@@ -300,7 +300,7 @@
                 top: 50%;
                 right: 0;
                 transform: translate(50px, -50%);
-                background-image: url(../images/icons/line-dotted.svg);
+                background-image: url(../../images/icons/line-dotted.svg);
                 background-repeat: no-repeat;
                 width: 1px;
                 height: 100%;
@@ -373,7 +373,7 @@
         & > a {
             width: 34px;
             height: 34px;
-            background-image: url(../images/icons/arrow-up.svg);
+            background-image: url(../../images/icons/arrow-up.svg);
             background-repeat: no-repeat;
             justify-self: flex-end;
         }
@@ -409,7 +409,7 @@
         & > span {
             width: 22px;
             height: 22px;
-            background-image: url(../images/icons/arrow-down.svg);
+            background-image: url(../../images/icons/arrow-down.svg);
         }
     }
 }
@@ -453,7 +453,7 @@
     padding: 80px;
     border-radius: 20px;
     background-color: var(--gray-color11);
-    background-image: url(../images/icons/banner-layer.svg);
+    background-image: url(../../images/icons/banner-layer.svg);
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
