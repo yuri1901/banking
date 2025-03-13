@@ -18,7 +18,6 @@ body {
 .container-fluid {
     max-width: 1920px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 .container {
     max-width: 1610px;
@@ -260,6 +259,46 @@ p.secondary-text {
         display: none;
     }
 }
+
+/* banner */
+.banner {
+    width: 100%;
+}
+.banner-inner {
+    width: 100%;
+    height: 290px;
+    padding: 80px;
+    border-radius: 20px;
+    background-color: var(--gray-color11);
+    background-image: url(../../images/icons/banner-layer.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    & > a {
+        width: 180px;
+        height: 60px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+}
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    & > h2 {
+        font-size: 40px;
+        & > span {
+            font-size: inherit;
+        }
+    }
+    & > p {
+        max-width: 1070px;
+    }
+}
+
 /* foooter */
 
 .footer {
