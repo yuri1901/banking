@@ -79,7 +79,7 @@
         & > a {
             width: 100px;
             height: 26px;
-            background-image: url(../../images/icons/logo-mobile.svg);
+            background-image: url(../images/icons/logo-mobile.svg);
         }
         & > nav,
         & > div {
