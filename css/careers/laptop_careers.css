@@ -1,1 +1,152 @@
 @import "../laptop-base.css";
+@media screen and (max-width: 1440px) {
+    .container-fluid {
+        max-width: 1440px;
+    }
+    .container {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    /* header */
+    .header-inner {
+        gap: 50px;
+    }
+    .header-careers {
+        background-size: 330px 320px;
+        padding: 40px;
+        & > div {
+            width: 720px;
+            height: 570px;
+        }
+        & > article {
+            width: 660px;
+            height: 410px;
+            padding: 60px;
+            top: calc(0% + 40px);
+            left: calc(0% + 40px);
+            & > h1 {
+                font-size: 48px;
+                line-height: normal;
+            }
+            & > p {
+                font-size: 16px;
+            }
+        }
+    }
+
+    /* values */
+
+    .values-content {
+        & > p {
+            max-width: 1130px;
+        }
+    }
+    .values-wrapper {
+        gap: 60px;
+        & > article {
+            width: 610px;
+            gap: 20px;
+            border-left: 1px solid var(--green-color60);
+            & > h3 {
+                font-size: 40px;
+            }
+            & > p {
+                font-size: 16px;
+            }
+        }
+    }
+
+    /* benefits */
+    .benefits-content {
+        & > p {
+            max-width: 1030px;
+        }
+    }
+    .benefits-wrapper {
+        gap: 60px;
+        & > article {
+            width: 610px;
+            padding: 40px;
+            gap: 20px;
+            & > div {
+                & > div {
+                    width: 80px;
+                    height: 80px;
+                    &::before {
+                        width: 60px;
+                        height: 60px;
+                        background-size: 28px 28px;
+                    }
+                }
+                & > h2 {
+                    font-size: 20px;
+                }
+            }
+            & > p {
+                font-size: 16px;
+            }
+        }
+    }
+    /* job */
+    .job-content {
+        & > p {
+            max-width: 1030px;
+        }
+    }
+    .job-wrapper {
+        gap: 20px;
+        & > article {
+            width: 630px;
+            height: 100%;
+            min-height: 760px;
+            gap: 40px;
+            padding: 40px;
+
+            & > div:first-child {
+                gap: 10px;
+                & > div {
+                    gap: 22px;
+                    & > div {
+                        font-size: 16px;
+                    }
+                    & > div:first-child {
+                        width: 140px;
+                    }
+                    & > div:last-child {
+                        width: 240px;
+                    }
+                }
+                & > h3 {
+                    font-size: 24px;
+                }
+            }
+            & > div:nth-child(2) {
+                gap: 16px;
+                & > h3 {
+                    font-size: 20px;
+                }
+                & > p {
+                    font-size: 16px;
+                }
+            }
+            & > ul {
+                gap: 16px;
+            }
+            & li {
+                & > h4 {
+                    font-size: 20px;
+                }
+                &:not(:first-child) {
+                    font-size: 16px;
+                }
+                &:nth-child(3) {
+                    max-width: 470px;
+                }
+            }
+            & > button {
+                margin: 0;
+            }
+        }
+    }
+}

@@ -1,4 +1,30 @@
 @media screen and (max-width: 390px) {
+    .container-fluid {
+        max-width: 390px;
+    }
+    .container {
+        max-width: 380px;
+    }
+    .main {
+        gap: 80px;
+    }
+    .base-inner {
+        gap: 50px;
+    }
+    .base-content {
+        align-items: center;
+        text-align: center;
+        & > h2 {
+            font-size: 28px;
+            & > span {
+                font-size: inherit;
+            }
+        }
+        & > p {
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
     .header {
         position: relative;
     }
@@ -46,7 +72,6 @@
         z-index: 1;
     }
     .header-inner {
-        gap: 50px;
         height: auto;
     }
     .header-top {
@@ -111,6 +136,38 @@
                 width: 220px;
                 height: 200px;
                 transform: translate(0%, 0%);
+            }
+        }
+    }
+
+    /* asked */
+    .asked-inner {
+        & > button {
+            width: 150px;
+            height: 50px;
+            font-size: 14px;
+            & > span {
+                width: 18px;
+                height: 18px;
+                background-image: url(../../images/icons/arrow-down-mobile.svg);
+            }
+        }
+    }
+
+    .asked-wrapper {
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(300px, auto);
+        & > article {
+            width: 100%;
+            padding: 30px;
+            & > h3 {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+            }
+            & > p {
+                font-size: 14px;
+                font-weight: 300;
             }
         }
     }

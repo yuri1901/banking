@@ -10,27 +10,17 @@
     background-size: 500px;
 }
 /* header */
+.index-inner {
+    min-height: 100vh;
+}
 
-/* main */
-.main {
-    display: flex;
-    flex-direction: column;
-    gap: 150px;
-}
 /* our products */
-.products-inner {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-}
+
 .products-block {
     display: flex;
     justify-content: space-between;
 }
 .products-content {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
     & > p {
         max-width: 910px;
     }
@@ -87,19 +77,6 @@
 }
 /* cases */
 
-.cases-inner {
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-}
-.cases-content {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    & > h2 {
-        color: var(--green-color60);
-    }
-}
 .cases-wrapper {
     display: flex;
     flex-direction: column;
@@ -238,16 +215,6 @@
 
 /* features */
 
-.features-inner {
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-}
-.features-content {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-}
 .features-wrapper {
     display: flex;
     gap: 30px;
@@ -308,64 +275,6 @@
             grid-column: 1/3;
             grid-row: 2 / 3;
             align-self: baseline;
-        }
-    }
-}
-
-/* asked */
-.asked-inner {
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    & > button {
-        width: 190px;
-        height: 60px;
-
-        font-family: "Inter", sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 150%;
-        color: var(--white-color);
-        align-self: center;
-
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 4px;
-        & > span {
-            width: 22px;
-            height: 22px;
-            background-image: url(../../images/icons/arrow-down.svg);
-        }
-    }
-}
-.asked-content {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-}
-.asked-wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 350px;
-    gap: 30px;
-
-    & > article {
-        display: none;
-        &.is-active {
-            display: flex;
-        }
-        flex-direction: column;
-        gap: 30px;
-        border-radius: 14px;
-        padding: 50px;
-        & > h3 {
-            font-size: 20px;
-        }
-        & > span {
-            height: 1px;
-            background-color: var(--gray-color15);
         }
     }
 }

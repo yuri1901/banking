@@ -2,3 +2,218 @@
 @import "../fonts.css";
 @import "../base.css";
 @import "../variables.css";
+.careers-inner {
+    height: 1076;
+}
+.header-careers {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    padding: 50px;
+    background-image: url(../../images/icons/caarers-layer.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: var(--gray-color11);
+    border-radius: 20px;
+    & > div {
+        width: 970px;
+        height: 720px;
+    }
+    & > article {
+        position: absolute;
+        top: calc(0% + 50px);
+        left: calc(0% + 50px);
+        width: 791px;
+        height: 500px;
+        padding: 80px;
+        background-color: var(--gray-color10);
+        border-radius: 20px 0px 80px 20px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+/* values */
+
+.values-content {
+    & > p {
+        max-width: 1290px;
+    }
+}
+.values-wrapper {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    & > article {
+        width: 754px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-left: 24px;
+        border-left: 1px solid var(--green-color60);
+        & > h3 {
+            font-size: 58px;
+            font-weight: 500;
+            line-height: 150%;
+            color: var(--gray-color30);
+        }
+        & > p {
+            color: var(--gray-color70);
+        }
+    }
+}
+/* benefits */
+
+.benefits-content {
+    & > p {
+        max-width: 1290px;
+    }
+}
+.benefits-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    & > article {
+        width: 744px;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background:
+            linear-gradient(
+                106.06deg,
+                rgba(202, 255, 51, 0.05) -29.45%,
+                rgba(202, 255, 51, 0) 27.86%
+            ),
+            linear-gradient(
+                267.5deg,
+                #1c1c1c 40.67%,
+                rgba(28, 28, 28, 0) 99.81%
+            ),
+            url(asfalt-light.png);
+        border-radius: 50px 20px;
+        &:nth-child(2) {
+            & > div > div::before {
+                background-image: url(../../images/icons/benefits-lamp.svg);
+            }
+        }
+        &:nth-child(3) {
+            & > div > div::before {
+                background-image: url(../../images/icons/benefits-retirement.svg);
+            }
+        }
+        &:nth-child(3) {
+            & > div > div::before {
+                background-image: url(../../images/icons/benefits-work.svg);
+            }
+        }
+        & > div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 20px;
+            & > h2 {
+                font-size: 24px;
+            }
+            & > div {
+                width: 100px;
+                height: 100px;
+                &::before {
+                    width: 70px;
+                    height: 70px;
+                    background-image: url(../../images/icons/benefits-shop.svg);
+                    background-size: 34px 34px;
+                }
+            }
+        }
+    }
+}
+
+/* job */
+
+.job-content {
+    & > p {
+        max-width: 1300px;
+    }
+}
+.job-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    & > article {
+        width: 780px;
+        height: 890px;
+        padding: 50px;
+        background-color: var(--gray-color11);
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        & > div:first-child {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            & > h3 {
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 150%;
+                color: var(--white-color);
+            }
+            & > div {
+                display: flex;
+                gap: 10px;
+                & > div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: var(--gray-color70);
+                    font-weight: 300;
+                    font-size: 18px;
+                    padding: 8px 0;
+                }
+                & > div:first-child {
+                    width: 160px;
+                    height: 40px;
+                }
+                & > div:last-child {
+                    width: 270px;
+                    height: 40px;
+                }
+            }
+        }
+        & > div:nth-child(2) {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        & > ul {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        & li {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 150%;
+            color: var(--gray-color70);
+            &:not(:first-child) {
+                padding-left: 34px;
+                background-image: url(../../images/icons/job-icon.svg);
+                background-repeat: no-repeat;
+                background-position: 0 center;
+            }
+            & > h4 {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 150%;
+                color: var(--white-color);
+            }
+        }
+        & > button {
+            margin-top: auto;
+            width: 160px;
+            align-self: flex-start;
+        }
+    }
+}
