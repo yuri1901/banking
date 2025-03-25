@@ -1,4 +1,5 @@
 "use strict";
+
 function burger(item, art) {
     item.addEventListener("click", function () {
         return art.classList.toggle("active");

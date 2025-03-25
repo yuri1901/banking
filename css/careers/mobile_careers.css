@@ -15,20 +15,20 @@
     }
     .header-careers {
         background-size: 200px 190px;
-        padding: 10px;
+        padding: 14px;
         & > div {
             width: 330px;
             height: 250px;
         }
         & > article {
-            align-items: center;
-            gap: 14px;
-            background: red;
-            border-radius: 12px;
-            bottom: 0;
-            left: 0;
-            width: 100%;
+            width: 330px;
             height: 365px;
+            gap: 14px;
+            background-color: var(--gray-color10);
+            border-radius: 12px;
+            top: 84%;
+            left: 4.5%;
+            right: 0;
             padding: 24px;
             & > h1 {
                 max-width: 260px;
