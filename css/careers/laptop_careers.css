@@ -12,28 +12,6 @@
     .header-inner {
         gap: 50px;
     }
-    .header-careers {
-        background-size: 330px 320px;
-        padding: 40px;
-        & > div {
-            width: 720px;
-            height: 570px;
-        }
-        & > article {
-            width: 660px;
-            height: 410px;
-            padding: 60px;
-            top: calc(0% + 40px);
-            left: calc(0% + 40px);
-            & > h1 {
-                font-size: 48px;
-                line-height: normal;
-            }
-            & > p {
-                font-size: 16px;
-            }
-        }
-    }
 
     /* values */
 
@@ -57,37 +35,6 @@
         }
     }
 
-    /* benefits */
-    .benefits-content {
-        & > p {
-            max-width: 1030px;
-        }
-    }
-    .benefits-wrapper {
-        gap: 60px;
-        & > article {
-            width: 610px;
-            padding: 40px;
-            gap: 20px;
-            & > div {
-                & > div {
-                    width: 80px;
-                    height: 80px;
-                    &::before {
-                        width: 60px;
-                        height: 60px;
-                        background-size: 28px 28px;
-                    }
-                }
-                & > h2 {
-                    font-size: 20px;
-                }
-            }
-            & > p {
-                font-size: 16px;
-            }
-        }
-    }
     /* job */
     .job-content {
         & > p {

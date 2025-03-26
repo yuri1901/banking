@@ -292,7 +292,36 @@ p.secondary-text {
         display: none;
     }
 }
+/* finance-intro */
+.finance-intro {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    padding: 50px;
+    background-image: url(../../images/icons/caarers-layer.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: var(--gray-color11);
+    border-radius: 20px;
+    & > div {
+        width: 970px;
+        height: 720px;
+    }
+    & > article {
+        position: absolute;
+        top: calc(0% + 49px);
+        left: calc(0% + 50px);
+        width: 791px;
+        height: 500px;
+        padding: 80px;
+        background-color: var(--gray-color10);
+        border-radius: 20px 0px 80px 20px;
 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
 /* main */
 .main {
     display: flex;
@@ -326,7 +355,72 @@ p.secondary-text {
         }
     }
 }
+/* benefits */
 
+.benefits-content {
+    & > p {
+        max-width: 1290px;
+    }
+}
+.benefits-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    & > article {
+        width: 744px;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background:
+            linear-gradient(
+                106.06deg,
+                rgba(202, 255, 51, 0.05) -29.45%,
+                rgba(202, 255, 51, 0) 27.86%
+            ),
+            linear-gradient(
+                267.5deg,
+                #1c1c1c 40.67%,
+                rgba(28, 28, 28, 0) 99.81%
+            ),
+            url(asfalt-light.png);
+        border-radius: 50px 20px;
+        &:nth-child(2) {
+            & > div > div::before {
+                background-image: url(../../images/icons/benefits-lamp.svg);
+            }
+        }
+        &:nth-child(3) {
+            & > div > div::before {
+                background-image: url(../../images/icons/benefits-retirement.svg);
+            }
+        }
+        &:nth-child(3) {
+            & > div > div::before {
+                background-image: url(../../images/icons/benefits-work.svg);
+            }
+        }
+        & > div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 20px;
+            & > h2 {
+                font-size: 24px;
+            }
+            & > div {
+                width: 100px;
+                height: 100px;
+                &::before {
+                    width: 70px;
+                    height: 70px;
+                    background-image: url(../../images/icons/benefits-shop.svg);
+                    background-size: 34px 34px;
+                }
+            }
+        }
+    }
+}
 .asked-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
